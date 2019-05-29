@@ -1,0 +1,4 @@
+name: Crump Basic Page
+description: >
+   R markdown for html with typical settings as defaults
+create_dir: FALSE
