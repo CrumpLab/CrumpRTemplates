@@ -5,6 +5,8 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 twitter: "https://twitter.com/MattCrump_"
 github: "https://github.com/CrumpLab"
 website: "https://crumplab.gihub.io"
+bibliography: refs.bib
+csl: web/apa.csl
 output: 
   html_document:
     template: web/template.html
@@ -32,7 +34,7 @@ A very basic Rmd Template with table of contents. Defaults to the Yeti style fro
 
 ## Second level header
 
-some words
+some words, then cite a paper [@crump2013evaluating]
 
 ### Third level header
 
@@ -51,3 +53,6 @@ a <- 1
 b <- 2
 hist(rnorm(100,0,1))
 ```
+
+
+## References
