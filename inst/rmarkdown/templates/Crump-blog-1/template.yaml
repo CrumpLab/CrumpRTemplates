@@ -1,0 +1,4 @@
+name: Crump Blog 1
+description: >
+   R markdown for html with typical settings as defaults
+create_dir: FALSE
