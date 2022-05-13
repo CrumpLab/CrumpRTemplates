@@ -1,0 +1,40 @@
+---
+title             : "Full Title here"
+shorttitle        : "Short title"
+
+author:
+  - name          : "Matthew J. C. Crump"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Brooklyn College of CUNY, 2900 Bedford Avenue, Brooklyn, NY, 11210"
+    email         : "mcrump@brooklyn.cuny.edu"
+
+affiliation:
+  - id            : "1"
+    institution   : "Brooklyn College of the City University of New York"
+
+author_note: |
+  Author note here
+
+abstract: |
+  Enter abstract here. Each new line herein must be indented, like this line.
+
+keywords          : "X, Y, Z"
+wordcount         : "X"
+
+bibliography      : ["r-references.bib"]
+
+figsintext        : yes
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : no
+mask              : no
+
+header-includes:
+  - \usepackage{times}
+
+#class             : ["man","12pt","noextraspace"]
+class             : ["jou"]
+output            : papaja::apa6_pdf
+---
